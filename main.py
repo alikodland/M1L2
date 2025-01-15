@@ -8,4 +8,5 @@ password = ""
 for i in range(panjang_password):
     password += random.choice(elements)
 
+print("Halo, password kamu sudah dibuat")
 print(password)
